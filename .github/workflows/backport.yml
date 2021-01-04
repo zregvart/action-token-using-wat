@@ -3,6 +3,11 @@ name: backport
 on:
   workflow_dispatch:
 
+  pull_request:
+    types:
+      - closed
+      - labeled
+
 jobs:
   backport:
     runs-on: ubuntu-latest
