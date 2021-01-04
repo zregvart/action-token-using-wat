@@ -1,10 +1,10 @@
-name: wat
+name: backport
 
 on:
   workflow_dispatch:
 
 jobs:
-  wat:
+  backport:
     runs-on: ubuntu-latest
     steps:
     - uses: syndesis/backport-action@v1
