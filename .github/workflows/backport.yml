@@ -7,4 +7,4 @@ jobs:
   backport:
     runs-on: ubuntu-latest
     steps:
-    - uses: syndesis/backport-action@v1
+    - uses: syndesisio/backport-action@v1
